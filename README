@@ -1,2 +1,6 @@
 add https://github.com/cjbayliss/dark-mode-list/raw/main/dark-mode.txt to ublock
 origin to start using
+
+NOTE: if you are on Chromium use chrome://flags/#enable-force-dark  set to
+'Enabled with selective inversion of non-image elements' instead, it is more
+efficient than this list.
