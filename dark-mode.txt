@@ -249,10 +249,6 @@ thegoodguys.com.au##html:style(filter:invert(1))
 thegoodguys.com.au##img,video:style(filter:invert(1))
 thegoodguys.com.au##*:style(scrollbar-color: #666 #000 !important)
 
-amazon.com.au##html:style(filter:invert(1))
-amazon.com.au##img,video,header,#navFooter:style(filter:invert(1))
-amazon.com.au##*:style(scrollbar-color: #666 #000 !important)
-
 ! this website was extreamly hard to darken
 online.macquarie.com.au##html,body,h1,h2,h3,h4,h5,h6,#page-content-wrapper,#transaction-list,.accounts__groups,.accounts__group,.content-block__card,.mq-table-basic-footer,.txn-list-component__footer:style(background-color:#111 !important;color:#dfdfdf !important)
 online.macquarie.com.au##.mq-table-basic__body-row--expandable:hover,.mq-table-basic__body-row--clickable:hover,.mq-button-container__button,.header__advanced-search > .dropdown-toggle,.mq-add-filter__dropdown,.dropdown-menu,.mq-table-basic__body-row--expanded,.mq-table-basic__body-row--selected,.mq-table-basic__body-row:focus,.single-transaction-details,.mq-form-control__input, .mq-form-control__textarea, .mq-form-control__tel-input,.mq-form-control__selector .ng-select-container, .mq-form-control__selector-base .ng-select-container,input,input::placeholder,.mq-side-nav__secondary:style(background-color:#333 !important;color:#dfdfdf !important;border-color:#555 !important)
