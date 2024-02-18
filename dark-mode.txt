@@ -230,3 +230,23 @@ geohack.toolforge.org##img,video:style(filter:invert(1) hue-rotate(180deg) contr
 
 jvns.ca##html:style(background-color: #eee !important; filter:invert(1) hue-rotate(180deg) contrast(88%))
 jvns.ca##img,video,.mw-logo-container:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
+
+amazon.com.au##html,body,#pageContent,.gw-card-layout .a-cardui, .gw-card-layout .desktop-row > div,#dp,.a-box,.a-cardui,.s-desktop-content:style(background-color:#111 !important;color:#eee !important)
+amazon.com.au##table.a-keyvalue th,#nav-subnav,#navbar #nav-flyout-ewc .nav-flyout-body,#ewc-compact-body,.ewc-compact-head,.s-desktop-toolbar:style(background-color:#222 !important;color:#eee !important)
+amazon.com.au###gw-desktop-herotator.tall .a-carousel-viewport::before:style(background:unset !important)
+amazon.com.au##a, a:link, a:visited:style(color:#00bedf !important)
+amazon.com.au##.a-color-base,.a-ordered-list .a-list-item, .a-unordered-list .a-list-item, ol .a-list-item, ul .a-list-item,#prodDetails #SalesRank ul li span.zg_hrsr_ladder, #prodDetails #SalesRank ul li span.zg_hrsr_rank, #prodDetails .wrapper, #prodDetails td,#AUI_A9AdsMiddleBoxTop h2, #CustomerDiscussions h2, #customer-discussions_feature_div h2, #customer-reviews_feature_div h2, #customerReviewsHeader, #detailpage-click2call-header, #hmdFormDiv h2, #need-help-deciding .secHeader, #pf-fitment-wrapper h2, #revMHLContainer h2, #reviewBucketHeader, #rhfMainHeading, #sponsored-products-dp_feature_div h2, .bucket h2, .cdInlineAskBoxTitle, .cdQuestionAnswerHeader, .pa_componentTitleTest h2, h2.amtcmp, h2.featureHeading,#productDescription:style(color:#eee !important)
+amazon.com.au##.a-price:style(color:#ffb00f !important)
+amazon.com.au##*:style(box-shadow:unset !important;border-color:#333 !important;)
+amazon.com.au##.a-color-price:style(color:#ff3400 !important)
+amazon.com.au###revDivider .a-divider-inner, hr.bucketDivider, hr.bucketDivider::after,.a-box .a-divider.a-divider-section .a-divider-inner::after, .a-color-base-background .a-divider.a-divider-section .a-divider-inner::after, .a-divider.a-divider-section .a-divider-inner::after:style(background:#222 !important;)
+
+amazon.com##html,body,#pageContent,.gw-card-layout .a-cardui, .gw-card-layout .desktop-row > div,#dp,.a-box,.a-cardui,.s-desktop-content:style(background-color:#111 !important;color:#eee !important)
+amazon.com##table.a-keyvalue th,#nav-subnav,#navbar #nav-flyout-ewc .nav-flyout-body,#ewc-compact-body,.ewc-compact-head,.s-desktop-toolbar:style(background-color:#222 !important;color:#eee !important)
+amazon.com###gw-desktop-herotator.tall .a-carousel-viewport::before:style(background:unset !important)
+amazon.com##a, a:link, a:visited:style(color:#00bedf !important)
+amazon.com##.a-color-base,.a-ordered-list .a-list-item, .a-unordered-list .a-list-item, ol .a-list-item, ul .a-list-item,#prodDetails #SalesRank ul li span.zg_hrsr_ladder, #prodDetails #SalesRank ul li span.zg_hrsr_rank, #prodDetails .wrapper, #prodDetails td,I_A9AdsMiddleBoxTop h2, #CustomerDiscussions h2, #customer-discussions_feature_div h2, #customer-reviews_feature_div h2, #customerReviewsHeader, #detailpage-click2call-header, #hmdFormDiv h2, #need-help-deciding .secHeader, #pf-fitment-wrapper h2, #revMHLContainer h2, #reviewBucketHeader, #rhfMainHeading, #sponsored-products-dp_feature_div h2, .bucket h2, .cdInlineAskBoxTitle, .cdQuestionAnswerHeader, .pa_componentTitleTest h2, h2.amtcmp, h2.featureHeading,#productDescription:style(color:#eee !important)
+amazon.com##.a-price:style(color:#ffb00f !important)
+amazon.com##*:style(box-shadow:unset !important;border-color:#333 !important;)
+amazon.com##.a-color-price:style(color:#ff3400 !important)
+amazon.com###revDivider .a-divider-inner, hr.bucketDivider, hr.bucketDivider::after,.a-box .a-divider.a-divider-section .a-divider-inner::after, .a-color-base-background .a-divider.a-divider-section .a-divider-inner::after, .a-divider.a-divider-section .a-divider-inner::after:style(background:#222 !important;)
