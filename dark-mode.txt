@@ -7,29 +7,25 @@
 ! Homepage: https://github.com/cjbayliss/dark-mode-list
 ! Forums: https://github.com/cjbayliss/dark-mode-list/issues
 
+*##*:style(scrollbar-color: #999 #222 !important)
+
 wikipedia.org##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 wikipedia.org##img,video,.mw-logo-container:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
-wikipedia.org##*:style(scrollbar-color: #666 #000 !important)
 
 www.rust-lang.org##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 www.rust-lang.org##img,video,footer,.red,.green,.pruple:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
-www.rust-lang.org##*:style(scrollbar-color: #666 #000 !important)
 
 blog.rust-lang.org##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 blog.rust-lang.org##img,video,footer,.red,.green,.pruple:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
-blog.rust-lang.org##*:style(scrollbar-color: #666 #000 !important)
 
 play.rust-lang.org##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 play.rust-lang.org##img,video,footer:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
-play.rust-lang.org##*:style(scrollbar-color: #666 #000 !important)
 
 icloud.com##html,.root-component:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 icloud.com##img,video:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
-icloud.com##*:style(scrollbar-color: #666 #000 !important)
 
 html.duckduckgo.com##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 html.duckduckgo.com##img,video,.header--html .header__logo-wrap:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
-html.duckduckgo.com##*:style(scrollbar-color: #666 #000 !important)
 
 pccasegear.com##html:style(background:#111 !important;color:#dfdfdf !important)
 pccasegear.com##div:style(background:#111 !important;color:#dfdfdf !important)
@@ -41,89 +37,69 @@ www.pccasegear.com###trust-bar
 
 geekfeminismdotorg.wordpress.com##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 geekfeminismdotorg.wordpress.com##img,video:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
-geekfeminismdotorg.wordpress.com##*:style(scrollbar-color: #666 #000 !important)
 
 contributor-covenant.org##html,body:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 contributor-covenant.org##img,video:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
-contributor-covenant.org##*:style(scrollbar-color: #666 #000 !important)
 
 ycombinator.com##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 ycombinator.com##img,video,.bg-cover,[title="YouTube embed"]:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
-ycombinator.com##*:style(scrollbar-color: #666 #000 !important)
 
 tomshardware.com##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 tomshardware.com##img,video,footer,.youtube-video:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
-tomshardware.com##*:style(scrollbar-color: #666 #000 !important)
 
 hcn.org##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 hcn.org##img,video,nav,footer:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
 hcn.org##img:style(max-width: 800px !important; margin: auto !important)
 hcn.org##figure:style(max-width: 800px !important; margin: auto !important)
 hcn.org##header:style(max-width: 800px !important; margin: auto !important)
-hcn.org##*:style(scrollbar-color: #666 #000 !important)
 
 ivoyager.dev##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 ivoyager.dev##img,video,footer:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
-ivoyager.dev##*:style(scrollbar-color: #666 #000 !important)
 
 archive.md##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 archive.md##img,video:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
-archive.md##*:style(scrollbar-color: #666 #000 !important)
 
 wsj.com##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 wsj.com##img,video:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
-wsj.com##*:style(scrollbar-color: #666 #000 !important)
 
 ultrafp64.com##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 ultrafp64.com##img,video:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
-ultrafp64.com##*:style(scrollbar-color: #666 #000 !important)
 
 openrefine.org##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 openrefine.org##img,video,footer:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
-openrefine.org##*:style(scrollbar-color: #666 #000 !important)
 
 wired.com##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 ! FIXME: why doesn't this work?
 !wired.com##[class^="BasePageSiteFooterRow-"]:style(filter:invert(1) hue-rotate(180deg) contrast(88%) !important)
 wired.com##img,video,.BasePageSiteFooterRow-kpEBGH:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
-wired.com##*:style(scrollbar-color: #666 #000 !important)
 
 substack.com##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 substack.com##img,video:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
-substack.com##*:style(scrollbar-color: #666 #000 !important)
 
 reddit.com##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 reddit.com##img,video:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
-reddit.com##*:style(scrollbar-color: #666 #000 !important)
 
 acm.org##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 acm.org##img,video,footer:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
-acm.org##*:style(scrollbar-color: #666 #000 !important)
 
 drive.com.au##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 drive.com.au##img,video,header,footer:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
-drive.com.au##*:style(scrollbar-color: #666 #000 !important)
 
 tcl.tk##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 tcl.tk##img,video:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
-tcl.tk##*:style(scrollbar-color: #666 #000 !important)
 
 marcellerusu.com##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 marcellerusu.com##img,video:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
-marcellerusu.com##*:style(scrollbar-color: #666 #000 !important)
 
 benburwell.com##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 benburwell.com##img,video:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
-benburwell.com##*:style(scrollbar-color: #666 #000 !important)
 
 australiangeographic.com.au##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 australiangeographic.com.au##img,video,footer:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
-australiangeographic.com.au##*:style(scrollbar-color: #666 #000 !important)
 
 nature.com##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 nature.com##img,video,nav,footer:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
 nature.com###search-menu:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
-nature.com##*:style(scrollbar-color: #666 #000 !important)
 
 ! FIXME: why can't I reset the python logo back to default colors?
 www.python.org##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
@@ -131,27 +107,21 @@ www.python.org##header:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 www.python.org##header img:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 www.python.org##.top-bar, .site-base, .psf-widget:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 www.python.org##img,video:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
-www.python.org##*:style(scrollbar-color: #666 #000 !important)
 
 pypi.org##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 pypi.org##img,video,header,footer,.banner:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
-pypi.org##*:style(scrollbar-color: #666 #000 !important)
 
 archlinux.org##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 archlinux.org##img,video,#archnavbar:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
-archlinux.org##*:style(scrollbar-color: #666 #000 !important)
 
 gentoo.org##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 gentoo.org##img,video,.tyrian-navbar,.hero-section:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
-gentoo.org##*:style(scrollbar-color: #666 #000 !important)
 
 nixos.org##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 nixos.org##img,video,footer,.demo-preview:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
-nixos.org##*:style(scrollbar-color: #666 #000 !important)
 
 nixos.wiki##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 nixos.wiki##img,video:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
-nixos.wiki##*:style(scrollbar-color: #666 #000 !important)
 
 kernel.org##html,body,footer:style(background:#111 !important;color:#dfdfdf !important)
 kernel.org##*:style(text-shadow:none !important;box-shadow:none !important;border:none !important)
@@ -166,88 +136,68 @@ wiki.kernel.org###p-navigation:style(filter:invert(1) hue-rotate(180deg) contras
 
 gitlab.freedesktop.org##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 gitlab.freedesktop.org##img,video:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
-gitlab.freedesktop.org##*:style(scrollbar-color: #666 #000 !important)
 
 ebay.com.au##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 ebay.com.au##img,video:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
 ebay.com.au##svg#gh-logo:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
-ebay.com.au##*:style(scrollbar-color: #666 #000 !important)
 
 auspost.com.au##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 auspost.com.au##img,video:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
-auspost.com.au##*:style(scrollbar-color: #666 #000 !important)
 
 fedoramagazine.org##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 fedoramagazine.org##img,video:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
-fedoramagazine.org##*:style(scrollbar-color: #666 #000 !important)
 
 dgl.cx##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 dgl.cx##img,video:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
-dgl.cx##*:style(scrollbar-color: #666 #000 !important)
 
 drewdevault.com##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 drewdevault.com##img,video:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
-drewdevault.com##*:style(scrollbar-color: #666 #000 !important)
 
 nh3.readthedocs.io##html:style(background-color:#111 !important)
 
 stackoverflow.com##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 stackoverflow.com##img,video,footer:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
-stackoverflow.com##*:style(scrollbar-color: #666 #000 !important)
 
 serverfault.com##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 serverfault.com##img,video,header,footer:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
 serverfault.com##.site-header:style(filter:inherit)
-serverfault.com##*:style(scrollbar-color: #666 #000 !important)
 
 stackexchange.com##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 stackexchange.com##img,video,header:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
-stackexchange.com##*:style(scrollbar-color: #666 #000 !important)
 
 superuser.com##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 superuser.com##img,video,header,footer:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
-superuser.com##*:style(scrollbar-color: #666 #000 !important)
 
 askubuntu.com##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 askubuntu.com##img,video,header,footer:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
-askubuntu.com##*:style(scrollbar-color: #666 #000 !important)
 
 stackapps.com##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 stackapps.com##img,video,header,footer:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
-stackapps.com##*:style(scrollbar-color: #666 #000 !important)
 
 mathoverflow.net##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 mathoverflow.net##img,video,header,footer:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
-mathoverflow.net##*:style(scrollbar-color: #666 #000 !important)
 
 qtile.org##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 qtile.org##img,video,nav,.bg-\[\#222222\],[src^="https://www.youtube-nocookie.com"]:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
 qtile.org##.bg-\[\#222222\] img:style(filter:inherit)
-qtile.org##*:style(scrollbar-color: #666 #000 !important)
 
 railsatscale.com##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 railsatscale.com##img,video:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
-railsatscale.com##*:style(scrollbar-color: #666 #000 !important)
 
 raytracing.github.io##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 raytracing.github.io##img,video:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
-raytracing.github.io##*:style(scrollbar-color: #666 #000 !important)
 
 nngroup.com##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 nngroup.com##img,video:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
-nngroup.com##*:style(scrollbar-color: #666 #000 !important)
 
 jbhifi.com.au##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 jbhifi.com.au##img,video:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
-jbhifi.com.au##*:style(scrollbar-color: #666 #000 !important)
 
 lineageos.org##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 lineageos.org##img,video:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
-lineageos.org##*:style(scrollbar-color: #666 #000 !important)
 
 thegoodguys.com.au##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 thegoodguys.com.au##img,video:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
-thegoodguys.com.au##*:style(scrollbar-color: #666 #000 !important)
 
 ! this website was extreamly hard to darken
 online.macquarie.com.au##html,body,h1,h2,h3,h4,h5,h6,#page-content-wrapper,#transaction-list,.accounts__groups,.accounts__group,.content-block__card,.mq-table-basic-footer,.txn-list-component__footer:style(background-color:#111 !important;color:#dfdfdf !important)
@@ -259,24 +209,18 @@ online.macquarie.com.au##.transaction-filters__advanced-search-icon,.header__adv
 
 boilingsteam.com##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 boilingsteam.com##img,video:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
-boilingsteam.com##*:style(scrollbar-color: #666 #000 !important)
 
 gamingonlinux.com##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 gamingonlinux.com##img,video,nav,.featured-title,.head,footer:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
-gamingonlinux.com##*:style(scrollbar-color: #666 #000 !important)
 
 apps.apple.com##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 apps.apple.com##img,video:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
-apps.apple.com##*:style(scrollbar-color: #666 #000 !important)
 
 pointieststick.com##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 pointieststick.com##img,video:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
-pointieststick.com##*:style(scrollbar-color: #666 #000 !important)
 
 openstreetmap.org##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 openstreetmap.org##img,video:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
-openstreetmap.org##*:style(scrollbar-color: #666 #000 !important)
 
 geohack.toolforge.org##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 geohack.toolforge.org##img,video:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
-geohack.toolforge.org##*:style(scrollbar-color: #666 #000 !important)
