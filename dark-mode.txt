@@ -7,6 +7,9 @@
 ! Homepage: https://github.com/cjbayliss/dark-mode-list
 ! Forums: https://github.com/cjbayliss/dark-mode-list/issues
 
+! IMPORTANT: this fixes websites that set light background *images*
+*##:root,html,body:style(background-image:unset !important)
+
 *##*:style(scrollbar-color: #999 #222 !important)
 
 wikipedia.org##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
