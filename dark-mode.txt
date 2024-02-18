@@ -256,3 +256,27 @@ online.macquarie.com.au##.txn-details-info__label:style(color:#eee !important)
 online.macquarie.com.au##.txn-details-info__value:style(color:#aaa !important)
 online.macquarie.com.au##.mq-table-basic__body-cell:style(border-color:#333 !important)
 online.macquarie.com.au##.transaction-filters__advanced-search-icon,.header__advanced-search-icon,.header__search-icon,.mq-button-container__icon,.mq-icon-button__icon,.transaction-logo__category-icon-container:style(filter:invert(1))
+
+boilingsteam.com##html:style(filter:invert(1))
+boilingsteam.com##img,video:style(filter:invert(1))
+boilingsteam.com##*:style(scrollbar-color: #666 #000 !important)
+
+gamingonlinux.com##html:style(filter:invert(1))
+gamingonlinux.com##img,video,nav,.featured-title,.head,footer:style(filter:invert(1))
+gamingonlinux.com##*:style(scrollbar-color: #666 #000 !important)
+
+apps.apple.com##html:style(filter:invert(1))
+apps.apple.com##img,video:style(filter:invert(1))
+apps.apple.com##*:style(scrollbar-color: #666 #000 !important)
+
+pointieststick.com##html:style(filter:invert(1))
+pointieststick.com##img,video:style(filter:invert(1))
+pointieststick.com##*:style(scrollbar-color: #666 #000 !important)
+
+openstreetmap.org##html:style(filter:invert(1))
+openstreetmap.org##img,video:style(filter:invert(1))
+openstreetmap.org##*:style(scrollbar-color: #666 #000 !important)
+
+geohack.toolforge.org##html:style(filter:invert(1))
+geohack.toolforge.org##img,video:style(filter:invert(1))
+geohack.toolforge.org##*:style(scrollbar-color: #666 #000 !important)
