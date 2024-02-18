@@ -224,3 +224,6 @@ openstreetmap.org##img,video:style(filter:invert(1) hue-rotate(180deg) contrast(
 
 geohack.toolforge.org##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 geohack.toolforge.org##img,video:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
+
+jvns.ca##html:style(background-color: #eee !important; filter:invert(1) hue-rotate(180deg) contrast(88%))
+jvns.ca##img,video,.mw-logo-container:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
