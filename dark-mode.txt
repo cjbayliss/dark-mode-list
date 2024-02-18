@@ -2,7 +2,7 @@
 ! Description: |
 !	A list for making websites dark 🔮
 ! Expires: 7 days
-! Last modified: 2024-02-18T06:19:40+00:00
+! Last modified: 2024-02-18T19:39:13+00:00
 ! License: https://github.com/cjbayliss/dark-mode-list/blob/main/LICENSE
 ! Homepage: https://github.com/cjbayliss/dark-mode-list
 ! Forums: https://github.com/cjbayliss/dark-mode-list/issues
@@ -14,11 +14,12 @@
 
 hoogle.haskell.org##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 
-hackage.haskell.org##html,body:style(background-color:#111 !important;color:#eee;)
+hackage.haskell.org##html,body,#footer:style(background-color:#111 !important;color:#eee;)
 hackage.haskell.org##p:style(color:#eee;)
-hackage.haskell.org##p > em > code:style(color:#111;font-weight:bold;)
+hackage.haskell.org##p > em > code,td.src,td.src > a,td.src > * > span.keyword,p.src,p.src > *,p > code:style(color:#111;font-weight:bold;)
 hackage.haskell.org##pre,code,kbd,samp,tt,.src,h1,h2,h3,h4,#table-of-contents,.info,select,input,button,textarea:style(filter:invert(1) hue-rotate(180deg))
 hackage.haskell.org##table,#table,table.fancy,table.fancy tr,table.fancy td, table.properties td, table.fancy th, table.properties th:style(background-color:#222 !important;border-color:#333 !important;color:#eee;)
+hackage.haskell.org##table.info:style(background-color:#fff !important;)
 
 wikipedia.org##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 wikipedia.org##img,video,.mw-logo-container:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
