@@ -3,7 +3,7 @@
 ! Description: |
 !	A list for making websites dark 🔮
 ! Expires: 7 days
-! Last modified: 2024-02-26T22:42:25+00:00
+! Last modified: 2024-03-03T21:10:37+00:00
 ! License: https://github.com/cjbayliss/dark-mode-list/blob/main/LICENSE
 ! Homepage: https://github.com/cjbayliss/dark-mode-list
 
@@ -21,15 +21,18 @@ addons.mozilla.org##*:style(scrollbar-color: #666 #eee !important)
 addons.mozilla.org##html:style(filter:invert(1) hue-rotate(180deg) contrast(88%))
 addons.mozilla.org##img,video:style(filter:invert(1) hue-rotate(180deg) contrast(112%))
 
-amazon.*##html,body,#pageContent,.gw-card-layout .a-cardui, .gw-card-layout .desktop-row > div,#dp,.a-box,.a-cardui,.s-desktop-content:style(background-color:#111 !important;color:#eee !important)
-amazon.*##table.a-keyvalue th,#nav-subnav,#navbar #nav-flyout-ewc .nav-flyout-body,#ewc-compact-body,.ewc-compact-head,.s-desktop-toolbar:style(background-color:#222 !important;color:#eee !important)
 amazon.*###gw-desktop-herotator.tall .a-carousel-viewport::before:style(background:unset !important)
-amazon.*##a, a:link, a:visited:style(color:#00bedf !important)
-amazon.*##.a-color-base,.a-ordered-list .a-list-item, .a-unordered-list .a-list-item, ol .a-list-item, ul .a-list-item,#prodDetails #SalesRank ul li span.zg_hrsr_ladder, #prodDetails #SalesRank ul li span.zg_hrsr_rank, #prodDetails .wrapper, #prodDetails td,I_A9AdsMiddleBoxTop h2, #CustomerDiscussions h2, #customer-discussions_feature_div h2, #customer-reviews_feature_div h2, #customerReviewsHeader, #detailpage-click2call-header, #hmdFormDiv h2, #need-help-deciding .secHeader, #pf-fitment-wrapper h2, #revMHLContainer h2, #reviewBucketHeader, #rhfMainHeading, #sponsored-products-dp_feature_div h2, .bucket h2, .cdInlineAskBoxTitle, .cdQuestionAnswerHeader, .pa_componentTitleTest h2, h2.amtcmp, h2.featureHeading,#productDescription:style(color:#eee !important)
-amazon.*##.a-price:style(color:#ffb00f !important)
+amazon.*###revDivider .a-divider-inner,hr.bucketDivider,hr.bucketDivider::after,.a-box .a-divider.a-divider-section .a-divider-inner::after,.a-color-base-background .a-divider.a-divider-section .a-divider-inner::after,.a-divider.a-divider-section .a-divider-inner::after:style(background:#222 !important;)
 amazon.*##*:style(box-shadow:unset !important;border-color:#333 !important;)
+amazon.*##.a-alert-error,.a-alert-info,.a-alert-success,.a-alert-warning:style(border-left-width:unset !important;)
+amazon.*##.a-button-close:style(filter:invert(1);)
+amazon.*##.a-color-base,.a-ordered-list .a-list-item,.a-unordered-list .a-list-item,ol .a-list-item,ul .a-list-item,#prodDetails #SalesRank ul li span.zg_hrsr_ladder,#prodDetails #SalesRank ul li span.zg_hrsr_rank,#prodDetails .wrapper,#prodDetails td,I_A9AdsMiddleBoxTop h2,#CustomerDiscussions h2,#customer-discussions_feature_div h2,#customer-reviews_feature_div h2,#customerReviewsHeader,#detailpage-click2call-header,#hmdFormDiv h2,#need-help-deciding .secHeader,#pf-fitment-wrapper h2,#revMHLContainer h2,#reviewBucketHeader,#rhfMainHeading,#sponsored-products-dp_feature_div h2,.bucket h2,.cdInlineAskBoxTitle,.cdQuestionAnswerHeader,.pa_componentTitleTest h2,h2.amtcmp,h2.featureHeading,#productDescription,.a-color-secondary,.a-color-tertiary,.status-card .pt-status-milestones .pt-status-milestone .pt-status-milestone-label.active,.status-card .pt-status-milestones .pt-status-milestone .pt-status-milestone-label:style(color:#eee !important)
 amazon.*##.a-color-price:style(color:#ff3400 !important)
-amazon.*###revDivider .a-divider-inner, hr.bucketDivider, hr.bucketDivider::after,.a-box .a-divider.a-divider-section .a-divider-inner::after, .a-color-base-background .a-divider.a-divider-section .a-divider-inner::after, .a-divider.a-divider-section .a-divider-inner::after:style(background:#222 !important;)
+amazon.*##.a-expander-content-fade:style(background:-webkit-linear-gradient(top,rgba(255,255,255,0),#111) !important;background:linear-gradient(to bottom,rgba(255,255,255,0),#111) !important;)
+amazon.*##.a-price:style(color:#ffb00f !important)
+amazon.*##a,a:link,a:visited,#errorPageContainer .widgetHeader,#mapTracking-bottomSheet-container .widgetHeader,#pageContainer .widgetHeader:style(color:#00bedf !important)
+amazon.*##html,body,#pageContent,.gw-card-layout .a-cardui,.gw-card-layout .desktop-row > div,#dp,.a-box,.a-cardui,.s-desktop-content,.a-color-alternate-background,.sw-card-container,#rhf,.a-popover-inner,.a-popover-wrapper,.sc-background-dark:style(background-color:#111 !important;color:#eee !important)
+amazon.*##table.a-keyvalue th,#nav-subnav,#navbar #nav-flyout-ewc .nav-flyout-body,#ewc-compact-body,.ewc-compact-head,.s-desktop-toolbar,.a-alert-error .a-alert-container,.a-alert-info .a-alert-container,.a-alert-success .a-alert-container,.a-alert-warning .a-alert-container,.a-popover-modal .a-popover-header,.a-expander-partial-collapse-header:style(background-color:#222 !important;color:#eee !important)
 
 apnews.com##*:style(color:#eee !important;)
 apnews.com##a:style(color:#3396ff !important;)
