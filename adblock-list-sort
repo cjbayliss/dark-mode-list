@@ -29,9 +29,9 @@ def process_adblock_list(adblock_list, header, filename):
 
             url = urlparse(f"https://{line}")
             if url.hostname == previous_hostname:
-                file.write(line + "\n")
+                file.write(f"{line}\n")
             else:
-                file.write("\n" + line + "\n")
+                file.write(f"\n{line}\n")
                 previous_hostname = url.hostname
 
 
