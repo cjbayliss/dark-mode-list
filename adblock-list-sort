@@ -2,22 +2,23 @@
 """sort an adblock list"""
 
 from datetime import datetime, timezone
+from typing import List
 from urllib.parse import urlparse
 import os
 import re
 import sys
 
 
-def process_adblock_list(adblock_list, header, filename):
-    """sort the adblock list"""
-    adblock_list.sort()
-    previous_hostname = None
-    header = header.replace(
-        "DATETIME", datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S+00:00")
-    )
-
+def process_adblock_list(adblock_list: List[str], header: str, filename: str) -> None:
+    """sort and write the adblock list"""
     with open(filename, "w", encoding="utf-8") as file:
-        file.write(header)
+        file.write(
+            header.replace(
+                "DATETIME",
+                datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S+00:00"),
+            )
+        )
+        previous_hostname = None
         for line in adblock_list:
             if (
                 line.startswith("[")
@@ -44,6 +45,7 @@ if __name__ == "__main__":
 
     with open(path, "r", encoding="utf-8") as f:
         dark_mode_list = f.read().splitlines()
+        dark_mode_list.sort()
 
     with open(header_path, "r", encoding="utf-8") as f:
         header_str = f.read()
