@@ -37,17 +37,20 @@ def process_adblock_list(adblock_list: List[str], header: str, filename: str) ->
 
 
 if __name__ == "__main__":
-    path = sys.argv[1]
-    header_path = sys.argv[2]
-    if not (os.path.exists(path) or os.path.exists(header_path)):
+    if (
+        len(sys.argv) < 3
+        or sys.argv[1] == "-h"
+        or (not os.path.exists(sys.argv[1]) or not os.path.exists(sys.argv[2]))
+    ):
         print("usage: adblock-list-sort LIST_PATH HEADER_PATH")
         sys.exit(1)
 
-    with open(path, "r", encoding="utf-8") as f:
+    list_path = sys.argv[1]
+    with open(list_path, "r", encoding="utf-8") as f:
         dark_mode_list = f.read().splitlines()
         dark_mode_list.sort()
 
-    with open(header_path, "r", encoding="utf-8") as f:
+    with open(sys.argv[2], "r", encoding="utf-8") as f:
         header_str = f.read()
 
-    process_adblock_list(dark_mode_list, header_str, path)
+    process_adblock_list(dark_mode_list, header_str, list_path)
