@@ -11,3 +11,6 @@
 
 ! set root scrollbar color, then for each domain that is inverted use the inversion of this
 *##:root:style(scrollbar-color: #aaa #222 !important)
+
+! unset box-shadows since they don't invert well
+*##*:style(box-shadow:unset !important;)
